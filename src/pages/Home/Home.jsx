@@ -5,11 +5,11 @@ function Home() {
         <div>
             <header>
                 <div className="team-strip">
-                    <img src="assets/img/cacn .png" alt="CACN" className="team-logo" />
-                    <img src="assets/img/losexplosivos.png" alt="Los Explosivos" className="team-logo" />
-                    <img src="assets/img/hermas.png" alt="Hermas FC" className="team-logo" />
-                    <img src="assets/img/llorvi.png" alt="LLorvi" className="team-logo" />
-                    <img src="assets/img/semenup.png" alt="Semen Up" className="team-logo" />
+                    <img src="src\assets\images\logos sin fondo\cacn.webp" alt="CACN" className="team-logo" />
+                    <img src="src\assets\images\logos sin fondo\losexplosivos.webp" alt="Los Explosivos" className="team-logo" />
+                    <img src="src\assets\images\logos sin fondo\hermas.webp" alt="Hermas FC" className="team-logo" />
+                    <img src="src\assets\images\logos sin fondo\llorvi.webp" alt="LLorvi" className="team-logo" />
+                    <img src="src\assets\images\logos sin fondo\semenup.webp" alt="Semen Up" className="team-logo" />
                 </div>
 
                 <nav>
@@ -38,49 +38,49 @@ function Home() {
                                 ⚽ 3-3 | Hermas FC ganó por penales
                             </span>
                         </div>
-                        <img src="assets/img/sascup.jpg" alt="League Logo" style={{ borderRadius: '50%' }} />
+                        <img src="src\assets\images\sascup.jpg" alt="League Logo" style={{ borderRadius: '50%' }} />
                     </div>
 
                     <ul className="match-list">
                         <li className="match-item">
                             <div className="team-info">
-                                <img src="assets/img/hermas.png" alt="Hermas FC" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\hermas.webp" alt="Hermas FC" className="team-logo" />
                                 <span>HERMAS FC</span>
                             </div>
                             <span className="team-vs" style={{ fontSize: '1.2rem' }}>6 - 0</span>
                             <div className="team-info">
-                                <img src="assets/img/losexplosivos.png" alt="Los Explosivos" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\losexplosivos.webp" alt="Los Explosivos" className="team-logo" />
                                 <span>EXPLOSIVOS FC</span>
                             </div>
                         </li>
 
                         <li className="match-item">
                             <div className="team-info">
-                                <img src="assets/img/cacn .png" alt="CACN" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\cacn.webp" alt="CACN" className="team-logo" />
                                 <span>CACN</span>
                             </div>
                             <span className="team-vs" style={{ fontSize: '1.2rem' }}>3 - 1</span>
                             <div className="team-info">
-                                <img src="assets/img/semenup.png" alt="Semen Up" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\cacn.webp" alt="Semen Up" className="team-logo" />
                                 <span>SEMEN UP</span>
                             </div>
                         </li>
 
                         <li className="match-item">
                             <div className="team-info">
-                                <img src="assets/img/llorvi.png" alt="LLORVI" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\llorvi.webp" alt="LLORVI" className="team-logo" />
                                 <span>LLORVI</span>
                             </div>
                             <span className="team-vs" style={{ fontSize: '1.2rem' }}>2 - 4</span>
                             <div className="team-info">
-                                <img src="assets/img/hermas.png" alt="HERMAS FC" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\hermas.webp" alt="HERMAS FC" className="team-logo" />
                                 <span>HERMAS FC</span>
                             </div>
                         </li>
 
                         <li className="match-item" style={{ borderLeft: '4px solid #cd7f32' }}>
                             <div className="team-info">
-                                <img src="assets/img/semenup.png" alt="SEMEN UP" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\cacn.webp" alt="SEMEN UP" className="team-logo" />
                                 <span>SEMEN UP</span>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -88,7 +88,7 @@ function Home() {
                                 <span style={{ fontSize: '0.75rem', color: '#cd7f32', fontWeight: 'bold' }}>🥉 LLORVI (3er Puesto)</span>
                             </div>
                             <div className="team-info">
-                                <img src="assets/img/llorvi.png" alt="LLORVI" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\llorvi.webp" alt="LLORVI" className="team-logo" />
                                 <span>LLORVI</span>
                             </div>
                         </li>
@@ -110,7 +110,7 @@ function Home() {
                                     }}>
                                     🥈 2DO
                                 </div>
-                                <img src="assets/img/cacn .png" alt="CACN" className="team-logo" />
+                                <img src="src\assets\images\logos con fondo\cacn-.webp" alt="CACN" className="team-logo" />
                                 <span>CACN</span>
                             </div>
                             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -128,7 +128,7 @@ function Home() {
                                     }}>
                                     🥇 1RO
                                 </div>
-                                <img src="assets/img/hermas.png" alt="HERMAS FC" className="team-logo" />
+                                <img src="src\assets\images\logos sin fondo\hermas.webp" alt="HERMAS FC" className="team-logo" />
                                 <span>HERMAS FC</span>
                             </div>
                         </li>
@@ -149,7 +149,7 @@ function Home() {
                         </div>
 
                         <div className="mvp-image-container">
-                            <img src="assets/img/mvp cacn.jpg" alt="MVP Semifinal 1" />
+                            <img src="src\assets\images\mejores jugadores\mvp cacn.jpg" alt="MVP Semifinal 1" />
                         </div>
                     </div>
 
@@ -165,7 +165,7 @@ function Home() {
                         </div>
 
                         <div className="mvp-image-container">
-                            <img src="assets/img/mvp hermas.jpg" alt="MVP Semifinal 2" />
+                            <img src="src\assets\images\mejores jugadores\mvp hermas.jpg" alt="MVP Semifinal 2" />
                         </div>
                     </div>
 
@@ -207,17 +207,17 @@ function Home() {
                             <div className="round-title">Semifinales <br /><span>23/12 17:00 HS</span></div>
                             <div className="matchup match-semi-l">
                                 <div className="team-slot slot-green">
-                                    <img src="assets/img/cacn .png" alt="CACN FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\cacn-.webp" alt="CACN FC" className="team-logo-formatotorneo" />
                                 </div>
                                 <div className="team-slot slot-green">
-                                    <img src="assets/img/semenup transparente.png" alt="SEMENUP FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\semenup.webp" alt="SEMENUP FC" className="team-logo-formatotorneo" />
                                 </div>
                             </div>
                         </div>
 
                         <div className="bracket-col bracket-col-center">
                             <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-                                <img src="assets/img/parche campeon.png" alt="Trofeo SAS CUP"
+                                <img src="src\assets\images\parche campeon.png" alt="Trofeo SAS CUP"
                                     style={{ width: '80px', filter: 'drop-shadow(0 0 10px rgba(212, 175, 55, 0.5))' }} />
                             </div>
 
@@ -226,7 +226,7 @@ function Home() {
                             </div>
                             <div className="matchup final match-final">
                                 <div className="team-slot slot-gold">
-                                    <img src="assets/img/cacn .png" alt="CACN" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\cacn-.webp" alt="CACN" className="team-logo-formatotorneo" />
                                 </div>
                                 <div className="team-slot slot-gold"
                                     style={{ position: 'relative', boxShadow: '0 0 20px rgba(212, 175, 55, 0.8)', border: '2px solid #fbbf24' }}>
@@ -239,7 +239,7 @@ function Home() {
                                         }}>
                                         🏆 CAMPEÓN
                                     </div>
-                                    <img src="assets/img/hermas.png" alt="HERMAS FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\hermas.webp" alt="HERMAS FC" className="team-logo-formatotorneo" />
                                 </div>
                             </div>
 
@@ -250,7 +250,7 @@ function Home() {
                             </div>
                             <div className="matchup third-place match-third">
                                 <div className="team-slot slot-red">
-                                    <img src="assets/img/semenup.png" alt="SEMEN UP" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\semenup.webp" alt="SEMEN UP" className="team-logo-formatotorneo" />
                                 </div>
                                 <div className="team-slot slot-red"
                                     style={{ position: 'relative', boxShadow: '0 0 15px rgba(205, 127, 50, 0.6)', border: '2px solid #cd7f32' }}>
@@ -263,7 +263,7 @@ function Home() {
                                         }}>
                                         🥉 3ER PUESTO
                                     </div>
-                                    <img src="assets/img/llorvi.png" alt="LLORVI" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\llorvi.webp" alt="LLORVI" className="team-logo-formatotorneo" />
                                 </div>
                             </div>
                         </div>
@@ -273,10 +273,10 @@ function Home() {
 
                             <div className="matchup match-semi-r">
                                 <div className="team-slot slot-teal">
-                                    <img src="assets/img/llorvi.png" alt="LLORVI FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\llorvi.webp" alt="LLORVI FC" className="team-logo-formatotorneo" />
                                 </div>
                                 <div className="team-slot slot-teal">
-                                    <img src="assets/img/hermas.png" alt="HERMAS FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\hermas.webp" alt="HERMAS FC" className="team-logo-formatotorneo" />
                                 </div>
                             </div>
 
@@ -285,10 +285,10 @@ function Home() {
                             <div className="round-title mt-20 t-right">Repechaje (Finalizado) <br /><span>6 - 0</span></div>
                             <div className="matchup play-in match-playin">
                                 <div className="team-slot slot-orange">
-                                    <img src="assets/img/hermas.png" alt="Hermas FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos con fondo\hermas.webp" alt="Hermas FC" className="team-logo-formatotorneo" />
                                 </div>
                                 <div className="team-slot slot-orange">
-                                    <img src="assets/img/losexplosivosversionapagada.png" alt="losexplosivos FC" className="team-logo-formatotorneo" />
+                                    <img src="src\assets\images\logos apagados\los explosivos con fondo apagado.webp" alt="losexplosivos FC" className="team-logo-formatotorneo" />
                                 </div>
                             </div>
                         </div>
