@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import About from './pages/About'
 import './App.css'
-
+import './pages/Home/Home.css'
 function App() {
   const [count, setCount] = useState(0)
 
