@@ -34,7 +34,7 @@ function Home() {
         </div>
 
         <nav>
-          <a href="equipos.html">Equipos</a>
+          <Link to="/equipos">Equipos</Link>
           <Link to="/estadisticas">Estadísticas</Link>
           <a href="index.html">Torneo</a>
           <Link to="/reglamento">Reglamento</Link>
