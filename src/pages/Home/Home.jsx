@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 function Home() {
     return (
@@ -16,7 +17,7 @@ function Home() {
                     <a href="equipos.html">Equipos</a>
                     <a href="estadisticas.html">Estadísticas</a>
                     <a href="index.html">Torneo</a>
-                    <a href="reglamento.html">Reglamento</a>
+                    <Link to="/reglamento">Reglamento</Link>
                     <a href="sponsors.html">Sponsors</a>
                 </nav>
             </header>
