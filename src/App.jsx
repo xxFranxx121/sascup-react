@@ -7,6 +7,7 @@ import Estadisticas from "./pages/Home/estadisticas";
 import Equipos from "./pages/Home/equipos";
 import "./App.css";
 import "./pages/Home/Home.css";
+import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
