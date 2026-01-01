@@ -3,8 +3,9 @@ import Header from "../../components/header";
 
 function Sponsors() {
   return (
+    <>
+    <Header />
     <div className="container" style={{ gridTemplateColumns: "1fr" }}>
-      <Header />
       <div
         className="card-header"
         style={{
@@ -99,6 +100,7 @@ function Sponsors() {
         </a>
       </div>
     </div>
+    </>
   );
 }
 

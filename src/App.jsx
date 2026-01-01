@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import Home from "./pages/Home/home-torneo";
 import About from "./pages/About";
 import Reglamento from "./pages/Home/reglamento";
 import Sponsors from "./pages/Home/sponsors";

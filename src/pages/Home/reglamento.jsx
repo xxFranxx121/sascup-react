@@ -1,8 +1,11 @@
 import React from "react";
 import "./reglamento.css";
+import Header from "../../components/header"
 
 function Reglamento() {
   return (
+    <>
+    <Header />
     <div className="container" style={{ gridTemplateColumns: "1fr" }}>
       <div className="card" style={{ marginBottom: "25px" }}>
         <div className="card-header">
@@ -179,6 +182,7 @@ function Reglamento() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

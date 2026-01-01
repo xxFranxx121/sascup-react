@@ -1,47 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Header from "../../components/header";
 function Home() {
   return (
     <div>
-      <header>
-        <div className="team-strip">
-          <img
-            src="src\assets\images\logos sin fondo\cacn.webp"
-            alt="CACN"
-            className="team-logo"
-          />
-          <img
-            src="src\assets\images\logos sin fondo\losexplosivos.webp"
-            alt="Los Explosivos"
-            className="team-logo"
-          />
-          <img
-            src="src\assets\images\logos sin fondo\hermas.webp"
-            alt="Hermas FC"
-            className="team-logo"
-          />
-          <img
-            src="src\assets\images\logos sin fondo\llorvi.webp"
-            alt="LLorvi"
-            className="team-logo"
-          />
-          <img
-            src="src\assets\images\logos sin fondo\semenup.webp"
-            alt="Semen Up"
-            className="team-logo"
-          />
-        </div>
-
-        <nav>
-          <Link to="/equipos">Equipos</Link>
-          <Link to="/estadisticas">Estadísticas</Link>
-          <a href="index.html">Torneo</a>
-          <Link to="/reglamento">Reglamento</Link>
-          <Link to="/sponsors">Sponsors</Link>
-        </nav>
-      </header>
-
+      <Header />
       <div className="container">
         <div className="card">
           <div className="card-header">

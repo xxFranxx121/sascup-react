@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../../components/header"
 
 function Equipos() {
   return (
-    <div className="container" style={{ gridTemplateColumns: "1fr" }}>
+    <>
+    <Header />
+      <div className="container" style={{ gridTemplateColumns: "1fr" }}>
       <div
         className="card-header"
         style={{
@@ -83,6 +86,7 @@ function Equipos() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "../../components/header"
 
 function Estadisticas() {
   return (
+    <>
+    <Header />
     <div className="container" style={{ gridTemplateColumns: "1fr" }}>
       {/* FILTROS */}
       <div className="stats-filters">
@@ -330,6 +333,7 @@ function Estadisticas() {
         </table>
       </div>
     </div>
+    </>
   );
 }
 
