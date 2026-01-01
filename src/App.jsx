@@ -1,14 +1,13 @@
-import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import About from './pages/About'
-import Reglamento from './pages/Home/reglamento'
-import Sponsors from './pages/Home/sponsors'
-import Estadisticas from './pages/Home/estadisticas'
-import Equipos from './pages/Home/equipos'
-import './App.css'
-import './pages/Home/Home.css'
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import About from "./pages/About";
+import Reglamento from "./pages/Home/reglamento";
+import Sponsors from "./pages/Home/sponsors";
+import Estadisticas from "./pages/Home/estadisticas";
+import Equipos from "./pages/Home/equipos";
+import "./App.css";
+import "./pages/Home/Home.css";
 function App() {
-
   return (
     <div className="App">
       <Routes>
@@ -20,7 +19,7 @@ function App() {
         <Route path="/equipos" element={<Equipos />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

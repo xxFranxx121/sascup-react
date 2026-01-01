@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "../../components/header";
 
 function Sponsors() {
   return (
     <div className="container" style={{ gridTemplateColumns: "1fr" }}>
+      <Header />
       <div
         className="card-header"
         style={{
