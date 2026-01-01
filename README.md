@@ -1,16 +1,56 @@
-# React + Vite
+# SAS CUP 2025 - Plataforma Oficial ⚽
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es la aplicación web oficial para la **SAS CUP 2025**, una plataforma diseñada para centralizar toda la información del torneo, resultados en vivo, estadísticas detalladas y gestión de equipos.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**: Biblioteca principal para la interfaz de usuario.
+- **Vite**: Herramienta de construcción ultra rápida para el desarrollo.
+- **React Router Dom v7**: Gestión de navegación y rutas dinámicas.
+- **CSS3 Vanilla**: Diseño personalizado con variables modernas, animaciones y diseño responsivo.
 
-## React Compiler
+## ✨ Características Principales
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Panel de Resultados**: Visualización de llaves (brackets) y resultados actualizados de fases eliminatorias.
+- **Estadísticas en Tiempo Real**: Tablas de goleadores, vallas menos vencidas y disciplina (tarjetas).
+- **Gestión de Equipos**: Perfiles detallados de los 5 equipos participantes.
+- **Reglamento Oficial**: Acceso rápido a las reglas y formatos de juego.
+- **Sección de Sponsors**: Espacio dedicado a las marcas que apoyan el evento.
+- **Responsive Design**: Optimizado para dispositivos móviles y tablets.
 
-## Expanding the ESLint configuration
+## 🛠️ Instalación y Desarrollo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para ejecutar el proyecto localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/xxFranxx121/sascup-react.git
+   ```
+
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Construir para producción:**
+   ```bash
+   npm run build
+   ```
+
+5. **Previsualizar construcción de producción:**
+   ```bash
+   npm run preview
+   ```
+
+## ✒️ Créditos
+
+Proyecto desarrollado por **Francisco De Cilia**.
+Junto a la colaboración de **Luciano Caro**
+
+---
+© 2025 SAS CUP. Todos los derechos reservados.
